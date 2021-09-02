@@ -1,8 +1,10 @@
 Assignment to be submitted on next class.
-1. Push all codes on git
+1. Push all codes on git..................................
+
 2. Complete all the practice exercise of HTML on
-https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5
+https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5......DONE
+
 3. Create a look alike Survay form from 
-https://www.jotform.com/form-templates/employee-satisfaction-survey
+https://www.jotform.com/form-templates/employee-satisfaction-survey.........
 
 - For Full stack students use survay form as assignment (Skip)

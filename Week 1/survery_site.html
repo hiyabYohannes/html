@@ -2,28 +2,26 @@
 
 <head>
     <title> Employee Satisfaction Surveysss</title>
+    <link rel="stylesheet" href="survey_site.css">
 </head>
 
 <body>
+    <h1 class="title">Employee Satisfaction Surveysss </h1>
+    <hr>
 
-    &nbsp;
-    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Employee Satisfaction Surveysss
-    </h1>
-
-    <form>
-        <label for="fname"> Name</label><br>
-        <input type="text" id="fname" name="fname">
-        <input type="text" id="fname" name="fname"><br>
-
+    <form class="formm">
+        <h3><label for="fname" > Name</label><br>
+        <input type="text"  id="fname" name="fname">
+        <input type="text" id="fname" name="fname"><br></h3>
+        <h3>
         <label for="Lname"> Last name</label><br>
-        <input type="text" id="lname" name="lname">
-        <input type="date" id="lname" name="lname">
+        <input type="text"  id="lname" name="lname">
+        
+        <label for="Lname"> Date</label>
+        <input type="date" id="lname" name="lname"></h3>
 
 
-        <p>How would you describe your overall level of job satisfaction?</p>
+        <h3>How would you describe your overall level of job satisfaction?</h3>
 
         <input type="radio" id="Vsatisfied">
         <label for="Vsatisfied">Very Satisfied</label><br>
@@ -40,11 +38,11 @@
         <input type="radio" id="Vdissatisfied">
         <label for="Vdissatisfied">Very Dissatisfied</label><br>
 
-        <p>How would you rate the following ?</p>
-        <table>
+        <h3>How would you rate the following ?</h3>
+        <table class="table">
 
             <tr>
-                <td></td>
+                <td class="tdd"></td>
                 <th scope="col"> Very Poor</th>
                 <th scope="col">Poor</th>
                 <th scope="col">Average</th>
@@ -147,34 +145,36 @@
 
         </table>
 
-        <p>Do you feel valuated at work?</p>
+        <h3>Do you feel valuated at work?</h3>
+        <input type="radio" id="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" checked>
+        <label for="no">No</label>
+
+        <h3>Do you have the resources you need to perform your job well?</h3>
         <input type="radio" id="yes">
         <label for="yes">Yes</label><br>
         <input type="radio" id="no">
         <label for="no">No</label>
 
-        <p>Do you have the resources you need to perform your job well?</p>
+        <h3>Does your job cause you stress or anxiety? </h3>
         <input type="radio" id="yes">
         <label for="yes">Yes</label><br>
         <input type="radio" id="no">
         <label for="no">No</label>
 
-        <p>Does your job cause you stress or anxiety? </p>
+        <h3>Are sufficient efforts being made to solicit colleague opinions and feedback?</h3>
         <input type="radio" id="yes">
         <label for="yes">Yes</label><br>
         <input type="radio" id="no">
         <label for="no">No</label>
 
-        <p>Are sufficient efforts being made to solicit colleague opinions and feedback?</p>
-        <input type="radio" id="yes">
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="no">
-        <label for="no">No</label>
-
-        <p>Please Provide Any Additional Feedback</p>
-        <input type="text" id="txt"><br>
+        <h3>Please Provide Any Additional Feedback</h3>
+        <input type="text" class="textfield" id="txt"><br>
         <label for="txt"></label>
-
+    </form>
+<hr>
+<form>
         <input type="submit" id="submit">
         <label for="submit"></label>
 
