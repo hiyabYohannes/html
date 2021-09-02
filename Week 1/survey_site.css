@@ -11,26 +11,19 @@ body{
 }
  .formm{
   margin-left: 15%;
-  
-
  }
+
  .table,th,td{
- 
+   border-width: 1px;
    border-style: solid;
    border-collapse: collapse;
  }
- .table {
+ .table, .tdd {
   border-radius: 20px;
    border-top: none;
    border-left: none;
  }
- .tdd{
-   border-top: none !important;
-   border-left: none;
-  /* z-index: 1;
-   border-color: orangered;
- border-style:dotted; */
- }
+
  th{
    background-color:rgb(229,234,244);
  }
