@@ -1,0 +1,56 @@
+#main{
+    background-color:black;
+    max-width: 100%;
+    overflow-x: hidden;
+   
+   
+   
+  }
+  #title{
+    background-color:343a40;
+      color:f8f9fa;
+      position:sticky;
+      top: 0;
+      
+  }
+  h1{
+    position: relative;
+    left: 500px;
+  }
+  h3{
+    position: relative;
+    left: 400px;
+
+  }
+ 
+
+  #img-caption{
+    color:white;
+    padding-left: 300px;
+    background-color: 343a40;
+   
+ 
+  }
+  #image{
+   
+    max-width:100%;
+    height:auto;
+    display:block;
+    
+  }
+  #tribute-info{
+    
+    color:white;
+   
+  }
+
+  p{
+    color:white;
+    background-color: 343a40;
+    padding-left: 500px;
+    
+  }
+  #video{
+    padding-left: 350px;
+
+  }
