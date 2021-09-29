@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="surveystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="title">
+        <h1 id="title">Survey Form </h1>
+        <h2 id="description">Your vote counts!</h2>
+    </div>
+    <div class="form-holder">
+        <form id="survey-form">
+            <div class="form-elm">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" id="name" name="nam" placeholder="Enter your name" required="true"><br>
+               <label for="email" id="email-label">Email</label><br>
+               <input type="email" name="email" id="email" required="true" pattern="[^ @]*@[^ @]*" placeholder="Enter your email"><br>
+                
+                <label for="age" id="number-label"> Age</label><br>
+                <input type="number" min="15" max="99" required="true" message="Enter your age please" id="number" placeholder="Enter your age" name="age"><br>
+                <p id=parag>Please indicate your gender :</p>
+        
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Female</label><br><br>
+        
+                <label for="quality" id="parag">How satisfied are you with the quality of our product? <label><br>
+                <select id="dropdown" name="quality">
+                    <option value="satisfied">Satisfied</option>
+                    <option value=" very satisfied">Very Satisfied</option>
+                    <option value="very dissatisfied">Very Dissatisfied</option>
+                    <option value="not dissatisfied">Not Dissatisfied</option>
+                    <option value="neutral">Neutral</option>
+                </select><br>
+        
+                        <p>What would you like to see improved?</p>
+                        <input type="checkbox" id="time" name="time of delivery" value="time">
+                        <label for="time">Time of delivery</label><br>
+        
+                        <input type="checkbox" id="quality" name="quality of product" value="quality">
+                        <label for="quailty">Quality of product</label><br>
+        
+                        <input type="checkbox" id="simplicity" name="Our Website simplicity" value="simplicity">
+                        <label for="simplicity">Website simplicity</label><br>
+        
+                        <input type="checkbox" id="response" name="responsiveness" value="response">
+                        <label for="respons">Responsiveness</label><br>
+        
+                        <input type="checkbox" id="assurance" name="assurance of" value="assure">
+                        <label for="assurance">Assurance</label><br><br>
+        
+                        <label for="comments" id="parag">If you have any comments...</label><br><br>
+        
+                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="PLease enter your comment here"></textarea><br>
+                        <input type="submit" id="submit" value="Submit">
+     
+
+
+            </div>
+              
+        </form>
+    
+    
+
+
+    </div>
+    
+
+</body>
+
+</html>

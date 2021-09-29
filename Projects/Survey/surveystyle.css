@@ -1,0 +1,56 @@
+.title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h2{
+   font-style: italic;
+}
+
+
+body{
+
+    background-image: url("./backg3.jpg") ;
+   
+}
+.form-holder {
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#survey-form{
+    background-color:6a994e;
+    
+    width: 40%;
+    border: 2px solid gray ;
+    border-radius: 2%;
+   
+
+}
+.form-elm {
+    position: relative;
+    align-items: center;
+    right: 11%;
+    left: 11%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+   
+}
+#name-label, #email-label , #number-label{
+    font-size:130%;
+}
+p{
+    font-size: 100%;
+}
+#parag{
+    font-size: 120%;
+}
+#name, #email , #number , #dropdown{
+    
+    width: 70%;
+
+}
