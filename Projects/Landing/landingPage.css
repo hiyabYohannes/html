@@ -1,0 +1,285 @@
+body{
+    background-color:fff0f3;
+    margin: 0%;
+}
+
+#header-img{
+    width:20%;   
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+    background-color:white;
+}
+
+ .header1{
+ display:flex;
+}
+
+#nav-bar{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.nav-link{
+    color:black;
+    text-decoration: none;
+}
+#nav-bar a:hover {
+    background-color: rgb(96,188,233); 
+    height: 55%;
+    width: auto;
+}
+
+.imagee{
+    width: 100%;
+    height: 100%;
+}
+
+#video{
+    width: 47%;  
+}
+
+.video{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(195, 220, 233);
+    display: flex;
+    justify-content:space-between;
+}
+
+h2{
+    text-align: center;
+    color: rgb(96,188,233);   
+}
+
+.blue{
+  color:rgb(96,188,233);
+}
+
+ .pink{
+   color:rgb(243,166,164);
+    }
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;  
+}
+
+.box1{
+    border-style: solid;
+    border-color: rgb(195, 220, 233);
+    width: 30%;
+    background-color: white;
+}
+
+.box2{
+    width: 30%;
+    border-style: solid;
+    background-color:white;
+    border-color: rgb(195, 220, 233);
+}
+
+.box3{
+    width: 30%;
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(195, 220, 233);
+}
+.hrr{
+    width:15%;
+    height: 1px;
+    background-color:rgb(96,188,233);
+
+}
+
+p.slogan{
+  text-align: center;
+}
+
+.holder{
+    position: relative; 
+    z-index: 1;
+    margin-top: 100px;
+}
+
+hr{
+    width:15%;
+    height: 2px;
+    background-color: rgb(243,166,164);
+}
+
+#titleform{
+    color:black;
+}
+
+.featurebox{
+    position:absolute;
+    top: -130px;
+    bottom: -50px;
+    left: 250px;
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+    grid-column-gap: 100px;
+    grid-row-gap: 80px;
+    justify-content: center;
+    margin-top: 100px;   
+}
+
+.back{
+  position: relative;
+  left:30px;
+  top:20px;
+  right:-10px;
+   margin-top: 50px;
+   margin-left:20% ;
+   width: 60%;
+   height: 70%;
+   background-color:rgb(243,166,164) ; 
+}
+
+h3{
+    color:rgb(245, 129, 125) ;
+}
+
+.imgbox{
+    padding-left: 50px;
+}
+
+.tid{
+    text-align: center;
+    font-size: 18px;
+}
+
+.centralize{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+}
+.one{  
+    background-color: ghostwhite;
+    width:220px;
+    box-shadow: 3px 5px 7px rgb(185, 218, 235);
+
+}
+
+.two{
+     background-color: ghostwhite;
+     width:220px;
+     box-shadow: 3px 5px 7px rgb(185, 218, 235);
+}
+
+.three{
+    background-color: ghostwhite;
+    width:220px;
+    box-shadow: 3px 5px 7px rgb(185, 218, 235);
+}
+
+.four{
+   
+    background-color: ghostwhite;
+    width:220px;
+    box-shadow: 3px 5px 7px rgb(185, 218, 235);
+}
+
+.five{
+    background-color: ghostwhite;
+    width:220px;
+    box-shadow: 3px 5px 7px rgb(185, 218, 235);
+}
+
+.six{
+    background-color: ghostwhite;
+    width:220px;
+    box-shadow: 3px 5px 7px rgb(185, 218, 235);
+}
+.section2{
+     border-style: solid;
+     border-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border-width: 20px;
+     margin-top: 200px;
+     background-color: rgb(243,166,164);
+     width: 80%; 
+     margin-left: 130px; 
+ }
+
+ #form{
+     display: flex;
+    }
+
+ .titleform{
+     text-align: center;
+    }
+
+ footer{
+     margin-top: 100px;
+     text-align: center;
+     background-attachment: fixed;
+     background-color:white;
+ }
+
+ #name{
+     margin-left: 100px;
+ }
+
+ #lname{
+    margin-left: 50px;
+ }
+
+ #email{
+    margin-left: 30px;
+ }
+
+ #submit{
+    margin-left: 50px;
+ }
+
+.feature-section {
+
+}
+#submit{
+    background-color: rgb(135, 200, 233);
+    border-style: solid;
+    border-color:white;
+}
+.marg{
+padding-left: 6%;
+}
+.buyy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+.sub{
+    width: 15%;
+    height: 5%;
+    background-color: rgb(135, 200, 233);
+    border-style: solid;
+    border-color: black;
+}
+
+.nav-logo {
+    text-decoration: none;
+}
+.indent{
+    text-indent: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.icon{
+    padding-top: 10px;
+    
+    }
