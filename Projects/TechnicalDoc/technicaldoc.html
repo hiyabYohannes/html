@@ -1,116 +1,158 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="technicaldoc.css">
-        <title> Technical Documentation of Css</title>
-    </head>
-<body>
-    <div class="holder">
+  <head>
+  <link rel="stylesheet" href="./technicaldoc.css">
+  </head>
+  <body>
+    <div class="bodyy">
+      <div class="bodyone">
+        <nav id="navbar">
+          <header class="titlemain">Css Documentation</header><br><br>
+          <hr>
+          <ul class="lists">
+            <div class="navclass">
+            <li ><a class="nav-link" href="#Css_Introduction">Css Introduction </a> </li>
+               <li><a class="nav-link" href="#Css_Properties">Css Properties</a></li>
+             <li><a class="nav-link" href="#Css_Advance">Css Advance</a></li>
+              <li><a class="nav-link" href="#Css_Design">Css Design</a></li>
+              <li><a class="nav-link" href="#Css_Responsive">Css Responsive</a></li></div>
+      
+          </ul>
   
-        <div class="titleheader">
-          <main id="main-doc">
-         <h1>Css Documentation</h1>
-         
-         <section class="main-section" >
-           <header id=" CssIntoduction"> Css Intoduction  </header>
-          
-         
-          <section class="main-section" >
-            <header id="CssProperties">Css Properties</header>
-           
-          <section class="main-section" >
-             <header id="CssAdvance">Css Advance </header>
-         
-          <section class="main-section" >
-             <header id="CssDesign">Css Design </header>
-        
-         
-         <section class="main-section" >
-           <header id="CssResponsive">Css Responsive</header>
-         
-         
-       </main>
-           </div>
-         
-         <div class="description">
-           <h2>Introduction</h2>
-         <ul>  
-          <p> What is CSS?</p>
-           <li>CSS stands for Cascading Style Sheets</li>
-       <li>CSS describes how HTML elements are to be displayed on
-           screen, paper, or in other media</li>
-       <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
-       <li>External stylesheets are stored in CSS files</li>
-           </ul>
-           
-           <p>It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.
-       
-       CSS is used along with HTML and JavaScript in most websites to create user interfaces for web applications and user interfaces for many mobile applications.</p>
-           <br> <br>
-           
-            <h2> Properties</h2>
-           <p>Here are some basic CSS properties to work with.</p>
+        </nav>
+  
+      </div>
+  
+      <div class="bodytwo">
+        <main id="main-doc">
+          <section class="main-section" id="Css_Introduction">
+            <header id="intro" class="titles">Css Introduction</header>
+            <p>What is CSS?</p>
+            <ul>
+              <li>CSS stands for Cascading Style Sheets</li>
+              <li>CSS describes how HTML elements are to be displayed on
+                screen, paper, or in other media</li>
+              <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+              <li>External stylesheets are stored in CSS files</li>
+            </ul>
+  
+            <p>It is a style sheet language which is used to describe the look and formatting of a document written in
+              markup language. It provides an additional feature to HTML. It is generally used with HTML to change the
+              style of web pages and user interfaces. It can also be used with any kind of XML documents including plain
+              XML, SVG and XUL.
+              CSS is used along with HTML and JavaScript in most websites to create user interfaces for web applications
+              and user interfaces for many mobile applications.</p>
+            <p>Css Example</p>
+            <div class="codepart" >
+            <code >
+                 body { <br>
+                     background-color: lightblue; <br>
+                      }<br>
+    
+                    h1 { <br>
+                     color: white; <br>
+                     text-align: center; <br>
+                       } <br>
+    
+                    p { <br>
+                      font-family: verdana; <br>
+                      font-size: 20px; <br>
+                      } <br>
+                  
+                </code></div>
+            <br> <br>
+          </section>
+          <hr>
+  
+          <section class="main-section" id="Css_Properties">
+            <header id="pro"  class="titles">Css Properties</header>
+            <p>Here are some basic CSS properties to work with.</p>
             <ol>
-             <li> Text Properties</li>
-              <p> CSS text formatting properties is used to format text and style text. 
-       CSS text formatting include following properties: <br>
-                <ul>
-       <li>Text-color</li> 
-       <li>Text-alignment </li> 
-       <li>Text-decoration </li> 
-       <li>Text-transformation </li> 
-       <li>Text-indentation </li> 
-       <li>Letter spacing </li> 
-       <li>Line height </li> 
-       <li>Text-direction </li>
-       <li>Text-shadow </li>
-       <li>Word spacing</li>
-                  </ul>
-       </p>
-             <li> List Properties</li>
-             <li> Border Properties</li>
-             <li> Font Properties</li>
-           </ol>
-            
-             <h2>Css Advance</h2>
+              <li> Text Properties</li>
+              <p> CSS text formatting properties is used to format text and style text.
+                CSS text formatting include following properties: <br>
+              <ul>
+                <li>Text-color</li>
+                <p>Example</p>
+                <div class="codepart">
+                <code >
+                            body { <br>
+                            color: red; <br>
+                                 } <br>
+    
+                            h1 { <br>
+                           color: #00ff00; <br>
+                                } <br>
+                          </code> </div><br>
+                <li>Text-alignment </li>
+                <li>Text-decoration </li>
+                <li>Text-transformation </li>
+                <li>Text-indentation </li>
+                <li>Letter spacing </li>
+                <li>Line height </li>
+                <li>Text-direction </li>
+                <li>Text-shadow </li>
+                <li>Word spacing</li>
+              </ul>
+              </p>
+              <li> List Properties</li>
+              <li> Border Properties</li>
+              <li> Font Properties</li>
+            </ol>
+          </section>
+          <hr>
+          <section class="main-section" id="Css_Advance">
+            <header id="advance" class="titles">Css Advance</header>
             <p> 3 Advanced CSS3 Techniques You Should Learn</p>
             <ol>
               <li>Advanced Selectors </li>
               <li>Animations</li>
               <li>Media Queries </li>
-            </ol>
-              
-            <h2>Css Design</h2>
-            <ul>
-              <li>Css Grid</li>
-               <li>Css Layout</li>
-               <li>Css Table</li>
-               <li>Css Box-Model</li>
-            </ul>
-            <h2>Css Responsive</h2>
-              <p>What is Responsive Web Design?<br>
-       Responsive web design makes your web page look good on all devices.<br>
-       
-       Responsive web design uses only HTML and CSS.<br>
-       
-       Responsive web design is not a program or a JavaScript.</p>
-           
-           
-           
-           
-         </div>
-         
-         </div>
-
-
-
-</body>
-
-
-
-
-
-
-
-
-
+              <p>Example<br>
+                Change the background color of the "body" element to "lightblue" when the browser window is 600px wide or
+                less: </p>
+                <div class="codepart">
+              <code>
+                       @media only screen and (max-width: 600px)<br> 
+                           body { <br>
+                           background-color: lightblue;<br>
+                              }<br>
+                               }<br> </code></div>
+                </ol>
+                </section>
+                <hr>
+        <section class="main-section" id="Css_Design">
+         <header id="design" class="titles">Css Design</header> 
+         <ul>
+                   <li>Css Grid</li>
+                   <p>Example<br>
+                      Make a grid with 4 columns: </p>
+                      <div class="codepart" >
+                      <code >
+                        .grid-container { <br>
+                        display: grid;<br>
+                        grid-template-columns: auto auto auto<br>
+                          }<br>
+                      </code></div>
+  
+              <li>Css Layout</li>
+              <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to
+                design web pages without having to use floats and positioning. </p>
+              <li>Css Table</li>
+              <li>Css Box-Model</li>
+              </ul>
+            </section>
+            <hr>
+              <section class="main-section" id="Css_Responsive">
+                <header id="respons" class="titles">Css Responsive</header>
+              <p>What is Responsive Web Design?</p>
+              <p>Responsive web design makes your web page look good on all devices.</p>
+              <p>Responsive web design uses only HTML and CSS.
+              </p>
+              <p>Responsive web design is not a program or a JavaScript.
+              </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
 </html>
