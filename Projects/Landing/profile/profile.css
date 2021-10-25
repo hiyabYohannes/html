@@ -1,0 +1,21 @@
+#navbar{   
+    display: flex;
+    justify-content: flex-end;
+    background:yellow;
+    position:sticky;
+    top:0;
+    margin-top:0;
+     
+}
+li {
+  display: inline;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#welcome-section{
+    height: 100vh;
+}
+
